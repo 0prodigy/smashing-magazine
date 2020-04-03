@@ -42,9 +42,11 @@ a {
 .navlink {
   padding: 0px 10px;
   text-align: center;
+  color: #fff;
+}
+.navlink:hover {
   color: #390c09;
 }
-
 .navlink h4 {
   font-size: 24px;
   font-weight: 700;
