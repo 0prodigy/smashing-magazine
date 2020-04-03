@@ -37,6 +37,7 @@ a {
   height: 44px;
   transform: rotate(-11deg);
   position: relative;
+  transition: 0.5s;
 }
 
 .navlink {
@@ -47,9 +48,27 @@ a {
 .navlink:hover {
   color: #390c09;
 }
+.navlink:hover img {
+  transform: rotate(0deg);
+}
 .navlink h4 {
   font-size: 24px;
   font-weight: 700;
   margin: 0;
   padding: 15px;
+}
+.search-container {
+  margin: 0 auto;
+}
+.search-btn {
+  display: block;
+  padding: 8px 16px;
+  border: 2px solid #fff;
+  background: none;
+  font-weight: 800;
+  color: #fff;
+  font-size: 19px;
+  border-radius: 5px;
+  margin: 0px auto;
+  width: 7.5em;
 }
