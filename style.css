@@ -2,6 +2,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Baloo Bhaina 2", cursive;
 }
 
 a {
@@ -60,7 +61,7 @@ a {
 .search-container {
   margin: 0 auto;
 }
-.search-btn {
+.serach-btn {
   display: block;
   padding: 8px 16px;
   border: 2px solid #fff;
@@ -70,6 +71,7 @@ a {
   font-size: 19px;
   border-radius: 5px;
   margin: 0px auto;
+  cursor: pointer;
   width: 7.5em;
 }
 
