@@ -7,6 +7,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #006fc6;
 }
 .hidden {
   display: none;
@@ -182,6 +183,10 @@ a {
   flex: 0 1 auto;
   padding: 1.5em;
 }
+.row {
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
 .col-md-12 {
   flex: 100%;
   flex-wrap: nowrap;
@@ -230,4 +235,55 @@ a {
   position: relative;
   margin-top: -180px;
   border: none !important;
+}
+
+.section6 {
+  background: #f6f3f2;
+}
+.col-md-4 {
+  flex: 33.33%;
+  max-width: 33.33%;
+  padding: 2rem;
+  background: transparent;
+  transition: 0.5s;
+}
+
+.col-md-4:hover {
+  background: #fff;
+  transform: scale(1.2);
+}
+.col-md-4 h3 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 2rem;
+}
+.col-md-4 ul {
+  padding: 2rem 3rem;
+  font-size: 21px;
+  list-style: dot;
+}
+.col-md-4 a {
+  text-decoration: underline;
+}
+.col-md-8 {
+  flex: 60%;
+  max-width: 60%;
+  background: #d33a2c;
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+}
+.col-md-8 h2 {
+  font-size: 43px;
+  font-weight: 700;
+}
+.col-md-8 p {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 21px;
+  line-height: 1.4rem;
+}
+.subscribe-container > * {
+  display: block;
 }
