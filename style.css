@@ -8,12 +8,15 @@ body {
 a {
   text-decoration: none;
 }
+.hidden {
+  display: none;
+}
 .header {
   display: flex;
   width: 100%;
   align-items: center;
   flex-wrap: wrap;
-  background: #cccccc;
+  background: #4c4c4b;
   padding: 1em 0.5em;
 }
 .logo-container {
@@ -55,8 +58,6 @@ a {
 .navlink h4 {
   font-size: 24px;
   font-weight: 700;
-  margin: 0;
-  padding: 15px;
 }
 .search-container {
   margin: 0 auto;
@@ -105,7 +106,7 @@ a {
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 25em;
   padding: 0;
-  margin: 10px 0;
+  margin: 10px 0 0;
 }
 
 .section2 article {
@@ -126,7 +127,107 @@ a {
 }
 
 .section3 {
-  background-color: rgb(56, 55, 55);
-  padding: 0;
-  margin: 5px 0;
+  background-color: #76d0a4;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(50%, #76d0a4),
+    to(#7ab99a)
+  );
+  background-image: linear-gradient(#76d0a4 50%, #7ab99a 100%);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+.section3 .container {
+  padding: 3em;
+}
+.section3 p {
+  max-width: 55vw;
+  margin: 0 auto;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+.section3-content h2 {
+  font-size: 2rem;
+  line-height: 2rem;
+  margin: 1rem 0;
+}
+.section3-content a {
+  margin: 0;
+  color: #fff;
+  border-bottom: 16px solid #adeccc;
+  border-radius: 16px;
+}
+
+.learn-more {
+  padding: 8px 18px;
+  background: #fff;
+  color: #452eca !important;
+  display: inline-block;
+  border: none;
+}
+.section4 {
+  background: #ffffff;
+}
+
+.container {
+  padding: 3em;
+}
+.row,
+.col-md-6,
+.col-md-12 {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 1 auto;
+  padding: 1.5em;
+}
+.col-md-12 {
+  flex: 100%;
+  flex-wrap: nowrap;
+  max-width: 100%;
+}
+.col-md-6 {
+  flex: 50%;
+  flex-wrap: nowrap;
+  max-width: 50%;
+}
+.img-holder,
+.flex-content {
+  margin: 1em;
+}
+.img-holder img {
+  border: 8px solid #d33a2c;
+  border-radius: 8px;
+  transform: rotate(-11deg);
+  transition: 0.7 ease;
+}
+.col-md-6:hover img,
+.col-md-12:hover img {
+  transform: rotate(0deg);
+}
+
+.more-twitter {
+  text-align: center;
+  border-bottom: 3px solid #9e1206;
+  color: #333;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+.section5 {
+  background: #d33a2c;
+}
+.desgin-system {
+  color: #fff;
+}
+.design-img {
+  width: 256px;
+  position: relative;
+  margin-top: -180px;
+  border: none !important;
 }
