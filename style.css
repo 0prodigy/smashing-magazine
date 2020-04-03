@@ -204,11 +204,15 @@ img {
 .flex-content {
   margin: 1em;
 }
+.person-of-week {
+  max-width: 200px !important;
+}
 .img-holder img {
   border: 8px solid #d33a2c;
   border-radius: 8px;
   transform: rotate(-11deg);
-  transition: 0.7 ease;
+  transition: 0.7;
+  min-width: 100px;
 }
 .col-md-6:hover img,
 .col-md-12:hover img {
@@ -377,4 +381,37 @@ img {
 .footer2 a {
   color: #fff;
   text-decoration: underline;
+}
+
+@media (max-width: 732px) {
+  .col-md-6,
+  .col-md-4,
+  .col-md-8,
+  .col-md-12 {
+    flex: 100%;
+    max-width: 100%;
+    display: block;
+    padding: 1rem 0.2rem;
+  }
+  .container {
+    padding: 0.5rem;
+  }
+  .section3 p {
+    max-width: 100%;
+  }
+  .section1,
+  .section2 {
+    display: block;
+    margin: 0;
+  }
+  .section1 article,
+  .section2 article {
+    padding: 1.5rem 0;
+  }
+  .nav-contianer {
+    margin: 0 auto;
+  }
+  .nav ul {
+    flex-flow: column;
+  }
 }
