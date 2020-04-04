@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/0prodigy/smashing-magazine/feature/index.html)
+[Live Demo Link](https://0prodigy.github.io/smashing-magazine/)
 
 ## Getting Started
 
